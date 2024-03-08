@@ -65,18 +65,10 @@
 
 //BETTER THAN WHILE LOOPS
 
-// fn main() {
-//     for number in (1..4).rev() {
-//         println!("{number}!");
-//     }
-//     println!("LIFTOFF!!!");
-// }
-
 fn main() {
-    let a = [5; 10];
-    let mut sum = 0;
-    for x in a {
-        sum += x;
+    for number in (1..4).rev() {
+        println!("{number}!");
     }
-    println!("{sum}");
+    println!("LIFTOFF!!!");
 }
+
